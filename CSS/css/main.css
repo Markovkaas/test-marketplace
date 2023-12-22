@@ -1,0 +1,76 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eee;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.yandex {
+    display: flex;
+}
+
+.img-jacobs {
+    width: 200px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.picture-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 10px 10px 40px gray;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.card-text {
+    margin-top: 10px;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.market {
+    margin-top: 10px;
+}
+
+.new-price {
+    color: #144223;
+    font-weight: bold;
+}
+
+.star-price {
+    text-decoration: line-through;
+    
+    color: gray;
+    font-weight: bold;
+}
+
+.btn-keeper {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #144223;
+    padding: 7px 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: grey;
+}
